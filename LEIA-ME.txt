@@ -1,0 +1,20 @@
+CONTROLE DE FROTA — MOTOCICLETAS
+
+O que inclui:
+- Identificação da motocicleta e responsável
+- Data, horário inicial/final e quilometragem inicial/final
+- Assinatura desenhada na tela
+- Campo de alterações/observações
+- Edição, registro de retorno e exclusão
+- Cálculo da quilometragem percorrida
+- Exportação CSV e backup/restauração JSON
+- Armazenamento local no aparelho
+
+COMO USAR NO ANDROID
+1. Extraia o ZIP.
+2. Para instalar como PWA com funcionamento offline, publique a pasta em um serviço HTTPS (por exemplo, hospedagem web estática) ou sirva-a por um servidor local compatível.
+3. Abra o endereço no Chrome do Android.
+4. No menu ⋮ do Chrome, escolha "Adicionar à tela inicial" ou "Instalar app", se disponível.
+
+IMPORTANTE
+Este pacote é um app web instalável (PWA), não um APK nativo. O registro fica no armazenamento local do navegador/aparelho; não há sincronização automática entre celulares. Exporte o backup regularmente. Se precisar de um APK nativo ou de vários usuários com banco central, será necessário um projeto adicional.
